@@ -12,7 +12,7 @@ def set_filename(parentdir ,extension):
     global counter
 
     def new_filename(parentdir, extension):
-        filename = gesture_name + '_P' + str(counter)
+        filename = gesture_name + '_' + gesture_mark + str(counter)
         if extension != '':
             return parentdir + filename + '.' + extension
         else:
